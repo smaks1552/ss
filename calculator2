@@ -1,0 +1,32 @@
+package kalkulator;
+
+import java.util.Scanner;
+
+public class calc {
+	public static void main(String[] args) {
+		int num1;
+		int num2;
+		int result;
+		String operacja;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(" podaj liczbe pierwszą: ");
+		num1 = input.nextInt();
+		System.out.println(" podaj liczbe drugą");
+		num2 = input.nextInt();	  
+    	  
+		Scanner op = new Scanner(System.in);
+		
+		System.out.println("jaka będzie operacja?");
+		operacja = op.next();
+		
+		if (operacja == "+") {
+			result = num1 + num2;
+			System.out.println("oto wynik" + result + "");
+			
+			
+		}
+	}
+	}
+
