@@ -1,0 +1,36 @@
+package calculatorsamsaksd;
+
+import java.util.Scanner;
+
+public class calccTest {
+	int num1;
+		int num2;
+			int result;
+				String operation;
+						Scanner input = new Scanner(System.in);
+									Scanner operation1 = new Scanner(System.in);
+	}
+  
+  package calculatorsamsaksd;
+
+
+
+public class calcc {
+		public static void main(String[] args) {
+			
+		calccTest ct = new calccTest();
+	
+		System.out.print("first number: ");
+					ct.num1 = ct.input.nextInt();
+			
+		System.out.print("second number: ");
+						ct.num2 = ct.input.nextInt();
+			
+		System.out.print("operation: ");
+				ct.operation = ct.operation1.next();
+					if (ct.operation.equals("+")) {
+							ct.result = ct.num1 + ct.num2;
+		System.out.println("result is: " + ct.result + " ");
+				}		
+		}
+}
